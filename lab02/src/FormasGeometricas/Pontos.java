@@ -1,6 +1,6 @@
 package FormasGeometricas;
 
-public class PontosXY {
+public class Pontos {
 	public double x;
 	public double y;
 }

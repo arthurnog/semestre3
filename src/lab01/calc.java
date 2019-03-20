@@ -90,6 +90,8 @@ public class calc {
 			else {
 				break;
 			}
+		    if (input != null)
+		       input.close();
 		}
 	}
 }
