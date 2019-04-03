@@ -8,5 +8,11 @@ public class LembreteMensal extends Lembrete {
 		super(descricao);
 		this.mes = mes;
 	}
+	
+	@Override
+	public void imprimir() {
+		super.imprimir();
+		System.out.printf("Mes %d", this.mes);
+	}
 
 }

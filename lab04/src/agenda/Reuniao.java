@@ -8,5 +8,11 @@ public class Reuniao extends Evento {
 		super(descricao, ano, mes, dia);
 		this.listaDeNomes = lista;
 	}
+	
+	@Override
+	public void imprimir() {
+		super.imprimir();
+		System.out.printf(this.listaDeNomes);
+	}
 
 }
